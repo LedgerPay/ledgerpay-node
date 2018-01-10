@@ -1,0 +1,30 @@
+{
+  "name": "ledgerpay-node",
+  "version": "1.0.0",
+  "description": "Node.js library for the LedgerPay API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LedgerPay/ledgerpay-node.git"
+  },
+  "keywords": [
+    "ledgerpay",
+    "api",
+    "node",
+    "nodejs",
+    "ledgerpay",
+    "node",
+    "ripple",
+    "ripple",
+    "payment"
+  ],
+  "author": "LedgerPay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LedgerPay/ledgerpay-node/issues"
+  },
+  "homepage": "https://github.com/LedgerPay/ledgerpay-node#readme"
+}
