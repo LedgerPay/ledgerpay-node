@@ -4,7 +4,7 @@
   "description": "Node.js library for the LedgerPay API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/LedgerPay/ledgerpay-node/issues"
   },
-  "homepage": "https://github.com/LedgerPay/ledgerpay-node#readme"
+  "homepage": "https://github.com/LedgerPay/ledgerpay-node#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0"
+  }
 }
