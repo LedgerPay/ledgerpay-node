@@ -1,4 +1,4 @@
-const request = require('request');
+const axios = require('axios');
 
 /**
  * Make payment request to LedgerAPI
@@ -22,14 +22,16 @@ const request = require('request');
 
     return new Promise((resolve, reject) => {
 
-        request('http://localhost:9779', (error, response, body) => {
-
-            if(error) {
-                reject(error);
-            }
-            else {
-                resolve(body);
-            }
-        });
+        axios({
+            url: 'http://localhost:9779/payment-request',
+            data: data,
+            method: 'POST'
+        })
+        .then((res) => {
+            resolve(res);
+        })
+        .catch((err) => {
+            reject(err);
+        })
     });
  }

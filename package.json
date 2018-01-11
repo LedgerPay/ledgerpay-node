@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/LedgerPay/ledgerpay-node#readme",
   "dependencies": {
-    "request": "^2.83.0"
+    "axios": "^0.17.1"
   },
   "devDependencies": {
     "mocha": "^4.1.0"
